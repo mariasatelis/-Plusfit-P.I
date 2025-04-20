@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 65, 61);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>100</y>
+      <width>481</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 65, 61);</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-1886</y>
+       <width>468</width>
+       <height>2568</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>450</width>
+          <height>2550</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>441</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/quadro peito (def (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>410</y>
+           <width>441</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/quadro triceps (def (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>40</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 221, 166);
+font: 75 19pt &quot;Georgia&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Segunda</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>720</y>
+           <width>381</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../Downloads/pag - definição/info segunda (def.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>780</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 221, 166);
+font: 75 19pt &quot;Georgia&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Quarta</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>820</y>
+           <width>441</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/quadro costas (def (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>1180</y>
+           <width>441</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/quadro biceps (def (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>1550</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 221, 166);
+font: 75 19pt &quot;Georgia&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Sexta</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>1590</y>
+           <width>441</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/quadro pernas (def (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>1920</y>
+           <width>441</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 85, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/quadro deltoides (def (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>2290</y>
+           <width>381</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>fotos/info sexta (def (1).png</pixmap>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="botaodefpeito">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>320</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#botaodefpeito{
+background-color:#0A5B56;
+color:#FFDDA6;
+font: 75 10pt &quot;Georgia&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Exercícios - Peito</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="botaodeftriceps">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>650</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#botaodeftriceps{
+background-color:#0A5B56;
+color:#FFDDA6;
+font: 75 10pt &quot;Georgia&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Exercícios - Tríceps</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="botaodefcostas">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>1060</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#botaodefcostas{
+background-color:#0A5B56;
+color:#FFDDA6;
+font: 75 10pt &quot;Georgia&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Exercícios - Costas</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="botaodefbiceps">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>1430</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#botaodefbiceps{
+background-color:#0A5B56;
+color:#FFDDA6;
+font: 75 10pt &quot;Georgia&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Exercícios - Bíceps</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="botaodefpernas">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>1830</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#botaodefpernas{
+background-color:#0A5B56;
+color:#FFDDA6;
+font: 75 10pt &quot;Georgia&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Exercícios - Pernas</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="botaodefdeltoides">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>2170</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#botaodefdeltoides{
+background-color:#0A5B56;
+color:#FFDDA6;
+font: 75 10pt &quot;Georgia&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>Exercícios - Deltoides</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>800</y>
+      <width>461</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(1, 55, 51);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="menu_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>810</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#botaomenu{
+border:none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>81</width>
+      <height>81</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="treino">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>810</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#botaotreino{
+border:none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>81</width>
+      <height>81</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="config">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>810</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#botaoconfig{
+border:none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>81</width>
+      <height>81</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="perfil">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>810</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#botaoperfil{
+border:none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>461</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 65, 61);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>fotos/definição (1).png</pixmap>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>462</width>
+    <height>901</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>462</width>
+    <height>901</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>190</y>
+      <width>391</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>fotos/fundo pagina de treino-1 (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>850</y>
+      <width>75</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2{
+border:none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../Downloads/icones de navegação/ICONE-CONFIG.png</normaloff>../Downloads/icones de navegação/ICONE-CONFIG.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>850</y>
+      <width>75</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2{
+border:none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../Downloads/icones de navegação/ICONE-PERFIL.png</normaloff>../Downloads/icones de navegação/ICONE-PERFIL.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>462</width>
+      <height>921</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 65, 61);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>461</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>fotos/treinos.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>810</y>
+       <width>461</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(1, 55, 51);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>421</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>fotos/fundo pagina de treino-1 (1) (2).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="menu_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>820</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#botaomenu{
+border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>81</width>
+       <height>81</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="treino">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>820</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#botaotreino{
+border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>81</width>
+       <height>81</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="config">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>820</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#botaoconfig{
+border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>81</width>
+       <height>81</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="perfil">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>820</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#perfil{
+border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="butaoforca">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>160</y>
+       <width>351</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/força.webp</normaloff>fotos/força.webp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>450</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="butaodefinicao">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>620</y>
+       <width>351</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/definição.jpeg</normaloff>fotos/definição.jpeg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>450</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="hipertrofia">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>340</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#hipertrofia{
+background-color: rgb(10, 91, 86);
+color: rgb(255, 221, 166);
+font-size: 15px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Hipertrofia</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="definicao">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>570</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#definicao{
+background-color: rgb(10, 91, 86);
+color: rgb(255, 221, 166);
+font-size: 15px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Definição</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="infos">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#infos{
+background-color: rgb(10, 91, 86);
+color: rgb(255, 221, 166);
+font-size: 15px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Informações</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="butaohipertrofia">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>390</y>
+       <width>351</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/hipertrofia.webp</normaloff>fotos/hipertrofia.webp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>450</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>menu_4</zorder>
+    <zorder>treino</zorder>
+    <zorder>config</zorder>
+    <zorder>perfil</zorder>
+    <zorder>butaoforca</zorder>
+    <zorder>butaodefinicao</zorder>
+    <zorder>hipertrofia</zorder>
+    <zorder>definicao</zorder>
+    <zorder>infos</zorder>
+    <zorder>label_3</zorder>
+    <zorder>butaohipertrofia</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

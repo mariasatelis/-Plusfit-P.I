@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>462</width>
+    <height>901</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>462</width>
+    <height>901</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>461</width>
+      <height>911</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="bcaa">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>370</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: transparent ;</string>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/bcaa.png</normaloff>fotos/bcaa.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>190</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="whey">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>600</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: transparent ;</string>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/whey.png</normaloff>fotos/whey.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>190</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="glutamina">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>370</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: transparent ;</string>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/glutamina.png</normaloff>fotos/glutamina.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>190</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="creatina">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: transparent ;</string>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/creatina.png</normaloff>fotos/creatina.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>190</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="l_arginina">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: transparent ;</string>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/L-Arginina.png</normaloff>fotos/L-Arginina.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>190</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="omega3">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>600</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: transparent ;</string>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/omega3.png</normaloff>fotos/omega3.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>190</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>461</width>
+       <height>901</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>fotos/planner (2).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="barra">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>810</y>
+       <width>441</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>81</width>
+       <height>81</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#barra{
+background-color: rgb(1, 55, 51);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="config">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="menu_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="perfil">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="treino">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>bcaa</zorder>
+    <zorder>whey</zorder>
+    <zorder>glutamina</zorder>
+    <zorder>creatina</zorder>
+    <zorder>l_arginina</zorder>
+    <zorder>omega3</zorder>
+    <zorder>barra</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
